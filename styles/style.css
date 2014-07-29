@@ -1,0 +1,21 @@
+body {
+	background-image: url(/images/background.png);
+}
+#carousel {
+  padding: 50px 0px;
+}
+.carousel-inner{
+	margin: auto;
+	min-width: 670px;
+  	max-width: 670px;
+}
+.carousel-control {
+  margin: -50px 0px;
+}
+.bg-info {
+	height: 30px;
+	text-align: center;
+	font-size: 14px;
+	text-decoration: underline;
+	font-weight: bold;
+}

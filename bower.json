@@ -1,0 +1,30 @@
+{
+  "name": "sdushor4-site",
+  "version": "0.0.1",
+  "homepage": "https://github.com/godfreel/sdushor4",
+  "dependencies": {
+    "bootstrap": "3.2.0",
+    "jquery": "*"
+  },
+  "install": {
+    "path": {
+      "css": "vendor/css",
+      "js": "vendor/js"
+    }
+  },
+  "authors": [
+    "dzmitryDubrovin <dzmitry_dubrovin@dancosoft.com>"
+  ],
+  "description": "site for sdushor #4 of Grodno",
+  "keywords": [
+    "sdushor4"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
