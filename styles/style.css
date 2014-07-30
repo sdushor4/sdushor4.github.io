@@ -19,3 +19,6 @@ body {
 	text-decoration: underline;
 	font-weight: bold;
 }
+.navbar-brand {
+	color: white !important;
+}
