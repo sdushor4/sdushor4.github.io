@@ -3,6 +3,7 @@ body {
 }
 #carousel {
   margin: 80px 0px;
+  height: 700px;
 }
 .emblem {
 	max-height: 50px;
@@ -16,9 +17,14 @@ body {
 }
 .carousel-inner{
 	margin: auto;
-	min-width: 670px;
-  	max-width: 670px;
+  	max-width: 1000px;
+  	height: 700px;
 }
+
+.carousel-inner>.item>img {
+	height: 700px;
+}
+
 .carousel-control {
   margin: -50px 0px;
 }
