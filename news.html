@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="NM">
 <head>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,9 @@
     <link rel="icon" href="favicon.ico">
 
     <title>Новости</title>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js"></script>
+    <script src="news/news-module.js"></script>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -50,17 +52,51 @@
       </div>
     </div>
 
-     <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Наверх</a></p>
-      </footer>
+    <!-- <div ng-controller="MainCtrl" class="container margined-container">
+      <div ng-repeat="post in posts">
+        <div markdown link="{{post.file}}"></div>
+      </div>
+    </div> -->
 
-    </div><!-- /.container -->
+    <div class="container margined-container">
+      <h2>Новый набор</h2>
+      <i><center>Учебно-спортивное учреждение</center></i>
+      <i><center>«Гродненская специализированная детско-юношеская школа олимпийского резерва №4»</center></i>
+      <center> <b>Тел. 77-16-75</b> </center>
+      
+      <h4>Проводит набор на 2014-2015 учебный год мальчиков и девочек 8-10 лет в группы:</h4>
 
+      <ul>
+        <li>
+          <p>
+            <b>Греко-римской борьбы</b> в специализированных залах : СШ № 39, 27, 34, училища олимпийского резерва, зала борьбы по ул. Врублевского,1
+          </p>
+          <p>старший тренер отделения -  Охота Николай Юрьевич</p>
+          <p>тел. (29)5890339</p>
+        </li>
+        <li>
+          <p>
+            <b>Вольной борьбы</b> в специализированных залах: СШ №32, 34, по ул.Белуша,37 и ул.Врублевского,1
+          </p>
+          <p>Старший тренер отделения – Пульмановский Николай Альбертович</p>
+          <p>тел.(33)6864099</p>
+        </li>
+        <li>
+          <p>
+            <b>Дзюдо</b> в специализированных залах: по ул.Горького,6, ул.Белуша,37, СШ №27, 32
+          </p>
+          <p>старший тренер отделения -  Короленко Вера Аркадиевна</p>
+          <p>тел.(29)5855711</p>
+        </li>
+        <li>
+          <p>
+            <b>Таэквондо</b> в специализированных залах: по ул.Горького,6, стадиона «Неман», СШ № 34,36,37,38.39
+          </p>
+          <p>старший тренер отделения -  Карапетян Алик Левонович</p>
+          <p>тел.(29)6533379; (29) 7810006</p>
+        </li>
+      </ul>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    
+    </div>
 </body>
 </html>

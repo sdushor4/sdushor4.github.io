@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Новый набор",
+    "slug": "test-angularjs-with-markdown",
+    "file": "новый-набор.md",
+    "tags": [
+      {"title" : "Javascript"},
+      {"title": "AngularJS"}
+    ]
+  }
+]
